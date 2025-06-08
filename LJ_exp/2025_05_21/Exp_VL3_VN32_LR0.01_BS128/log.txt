@@ -1,0 +1,263 @@
+2025-05-20 20:30:48,539 - Training configuration:
+2025-05-20 20:30:48,540 -   Number of particles: 3
+2025-05-20 20:30:48,540 -   Dimensions: 2
+2025-05-20 20:30:48,540 -   Velocity model layers: 3
+2025-05-20 20:30:48,540 -   Velocity model neurons: 32
+2025-05-20 20:30:48,540 -   Time model layers: 1
+2025-05-20 20:30:48,540 -   Time model neurons: 128
+2025-05-20 20:30:48,540 -   Learning rate: 0.01
+2025-05-20 20:30:48,540 -   Batch size: 128
+2025-05-20 20:30:48,540 -   Device: cuda
+2025-05-20 20:30:49,374 - Epoch 0/10000 - Time: 0.83s - Loss: 0.905777, PDE: 0.905230, IC: 0.000253, BC: 0.000294
+2025-05-20 20:30:49,374 -   Avg Times (last 200 epochs):
+2025-05-20 20:30:49,374 -     zero_grad: 0.66ms, PDE Calc: 583.61ms, IC Calc: 7.90ms, BC Calc: 31.46ms
+2025-05-20 20:30:49,375 -     Backward: 76.23ms, Optimizer Step: 92.87ms, Other: 0.15ms
+2025-05-20 20:30:49,375 -     Sum of components: 792.88ms, Measured per epoch: 834.08ms
+2025-05-20 20:31:30,434 - Epoch 200/10000 - Time: 41.89s - Loss: 0.703428, PDE: 0.562542, IC: 0.021967, BC: 0.118919
+2025-05-20 20:31:30,435 -   Avg Times (last 200 epochs):
+2025-05-20 20:31:30,435 -     zero_grad: 0.19ms, PDE Calc: 70.19ms, IC Calc: 6.22ms, BC Calc: 20.73ms
+2025-05-20 20:31:30,435 -     Backward: 100.93ms, Optimizer Step: 1.87ms, Other: 0.08ms
+2025-05-20 20:31:30,435 -     Sum of components: 200.22ms, Measured per epoch: 205.30ms
+2025-05-20 20:32:13,127 - Epoch 400/10000 - Time: 84.59s - Loss: 0.586550, PDE: 0.423421, IC: 0.016359, BC: 0.146770
+2025-05-20 20:32:13,127 -   Avg Times (last 200 epochs):
+2025-05-20 20:32:13,127 -     zero_grad: 0.21ms, PDE Calc: 70.00ms, IC Calc: 6.53ms, BC Calc: 21.38ms
+2025-05-20 20:32:13,127 -     Backward: 107.67ms, Optimizer Step: 1.96ms, Other: 0.08ms
+2025-05-20 20:32:13,127 -     Sum of components: 207.83ms, Measured per epoch: 213.47ms
+2025-05-20 20:32:56,256 - Epoch 600/10000 - Time: 127.72s - Loss: 0.783528, PDE: 0.653427, IC: 0.004231, BC: 0.125869
+2025-05-20 20:32:56,257 -   Avg Times (last 200 epochs):
+2025-05-20 20:32:56,257 -     zero_grad: 0.20ms, PDE Calc: 69.07ms, IC Calc: 6.59ms, BC Calc: 22.33ms
+2025-05-20 20:32:56,257 -     Backward: 109.43ms, Optimizer Step: 2.01ms, Other: 0.08ms
+2025-05-20 20:32:56,257 -     Sum of components: 209.72ms, Measured per epoch: 215.65ms
+2025-05-20 20:33:38,786 - Epoch 800/10000 - Time: 170.25s - Loss: 0.440000, PDE: 0.302031, IC: 0.010182, BC: 0.127786
+2025-05-20 20:33:38,786 -   Avg Times (last 200 epochs):
+2025-05-20 20:33:38,786 -     zero_grad: 0.21ms, PDE Calc: 69.27ms, IC Calc: 6.39ms, BC Calc: 20.30ms
+2025-05-20 20:33:38,786 -     Backward: 108.90ms, Optimizer Step: 2.12ms, Other: 0.08ms
+2025-05-20 20:33:38,786 -     Sum of components: 207.29ms, Measured per epoch: 212.65ms
+2025-05-20 20:34:15,445 - Epoch 1000/10000 - Time: 206.90s - Loss: 0.507939, PDE: 0.401067, IC: 0.006266, BC: 0.100607
+2025-05-20 20:34:15,446 -   Avg Times (last 200 epochs):
+2025-05-20 20:34:15,446 -     zero_grad: 0.16ms, PDE Calc: 59.13ms, IC Calc: 5.34ms, BC Calc: 18.36ms
+2025-05-20 20:34:15,446 -     Backward: 94.67ms, Optimizer Step: 1.61ms, Other: 0.06ms
+2025-05-20 20:34:15,447 -     Sum of components: 179.32ms, Measured per epoch: 183.29ms
+2025-05-20 20:34:56,118 - Epoch 1200/10000 - Time: 247.58s - Loss: 0.789268, PDE: 0.645891, IC: 0.004514, BC: 0.138863
+2025-05-20 20:34:56,119 -   Avg Times (last 200 epochs):
+2025-05-20 20:34:56,119 -     zero_grad: 0.20ms, PDE Calc: 68.11ms, IC Calc: 6.15ms, BC Calc: 19.99ms
+2025-05-20 20:34:56,119 -     Backward: 101.56ms, Optimizer Step: 1.92ms, Other: 0.08ms
+2025-05-20 20:34:56,119 -     Sum of components: 198.00ms, Measured per epoch: 203.36ms
+2025-05-20 20:35:38,896 - Epoch 1400/10000 - Time: 290.36s - Loss: 0.543948, PDE: 0.339238, IC: 0.002814, BC: 0.201896
+2025-05-20 20:35:38,897 -   Avg Times (last 200 epochs):
+2025-05-20 20:35:38,897 -     zero_grad: 0.20ms, PDE Calc: 70.19ms, IC Calc: 6.66ms, BC Calc: 21.70ms
+2025-05-20 20:35:38,897 -     Backward: 107.28ms, Optimizer Step: 2.00ms, Other: 0.08ms
+2025-05-20 20:35:38,897 -     Sum of components: 208.10ms, Measured per epoch: 213.89ms
+2025-05-20 20:36:22,081 - Epoch 1600/10000 - Time: 333.54s - Loss: 0.593957, PDE: 0.408665, IC: 0.007783, BC: 0.177510
+2025-05-20 20:36:22,082 -   Avg Times (last 200 epochs):
+2025-05-20 20:36:22,082 -     zero_grad: 0.22ms, PDE Calc: 69.88ms, IC Calc: 6.15ms, BC Calc: 21.65ms
+2025-05-20 20:36:22,082 -     Backward: 109.42ms, Optimizer Step: 2.10ms, Other: 0.08ms
+2025-05-20 20:36:22,082 -     Sum of components: 209.49ms, Measured per epoch: 215.92ms
+2025-05-20 20:37:04,867 - Epoch 1800/10000 - Time: 376.33s - Loss: 0.456604, PDE: 0.311118, IC: 0.014097, BC: 0.131389
+2025-05-20 20:37:04,868 -   Avg Times (last 200 epochs):
+2025-05-20 20:37:04,868 -     zero_grad: 0.21ms, PDE Calc: 69.84ms, IC Calc: 6.53ms, BC Calc: 21.41ms
+2025-05-20 20:37:04,868 -     Backward: 107.93ms, Optimizer Step: 2.09ms, Other: 0.08ms
+2025-05-20 20:37:04,868 -     Sum of components: 208.08ms, Measured per epoch: 213.93ms
+2025-05-20 20:37:41,173 - Epoch 2000/10000 - Time: 412.63s - Loss: 0.522501, PDE: 0.381592, IC: 0.004900, BC: 0.136010
+2025-05-20 20:37:41,173 -   Avg Times (last 200 epochs):
+2025-05-20 20:37:41,173 -     zero_grad: 0.17ms, PDE Calc: 58.28ms, IC Calc: 5.21ms, BC Calc: 18.08ms
+2025-05-20 20:37:41,173 -     Backward: 94.11ms, Optimizer Step: 1.67ms, Other: 0.07ms
+2025-05-20 20:37:41,173 -     Sum of components: 177.58ms, Measured per epoch: 181.53ms
+2025-05-20 20:38:21,158 - Epoch 2200/10000 - Time: 452.62s - Loss: 0.947685, PDE: 0.821725, IC: 0.002228, BC: 0.123733
+2025-05-20 20:38:21,159 -   Avg Times (last 200 epochs):
+2025-05-20 20:38:21,159 -     zero_grad: 0.18ms, PDE Calc: 67.72ms, IC Calc: 6.68ms, BC Calc: 21.60ms
+2025-05-20 20:38:21,159 -     Backward: 96.54ms, Optimizer Step: 1.76ms, Other: 0.07ms
+2025-05-20 20:38:21,159 -     Sum of components: 194.54ms, Measured per epoch: 199.92ms
+2025-05-20 20:39:04,042 - Epoch 2400/10000 - Time: 495.50s - Loss: 0.587962, PDE: 0.429502, IC: 0.005675, BC: 0.152785
+2025-05-20 20:39:04,044 -   Avg Times (last 200 epochs):
+2025-05-20 20:39:04,044 -     zero_grad: 0.20ms, PDE Calc: 69.72ms, IC Calc: 6.44ms, BC Calc: 21.68ms
+2025-05-20 20:39:04,044 -     Backward: 108.16ms, Optimizer Step: 2.01ms, Other: 0.08ms
+2025-05-20 20:39:04,044 -     Sum of components: 208.30ms, Measured per epoch: 214.42ms
+2025-05-20 20:39:47,551 - Epoch 2600/10000 - Time: 539.01s - Loss: 0.658273, PDE: 0.527537, IC: 0.007845, BC: 0.122891
+2025-05-20 20:39:47,552 -   Avg Times (last 200 epochs):
+2025-05-20 20:39:47,552 -     zero_grad: 0.22ms, PDE Calc: 70.64ms, IC Calc: 6.25ms, BC Calc: 21.78ms
+2025-05-20 20:39:47,552 -     Backward: 110.27ms, Optimizer Step: 2.10ms, Other: 0.08ms
+2025-05-20 20:39:47,552 -     Sum of components: 211.34ms, Measured per epoch: 217.55ms
+2025-05-20 20:40:30,838 - Epoch 2800/10000 - Time: 582.30s - Loss: 0.603799, PDE: 0.431345, IC: 0.001718, BC: 0.170736
+2025-05-20 20:40:30,839 -   Avg Times (last 200 epochs):
+2025-05-20 20:40:30,839 -     zero_grad: 0.21ms, PDE Calc: 70.15ms, IC Calc: 6.45ms, BC Calc: 20.68ms
+2025-05-20 20:40:30,839 -     Backward: 110.89ms, Optimizer Step: 2.13ms, Other: 0.08ms
+2025-05-20 20:40:30,839 -     Sum of components: 210.58ms, Measured per epoch: 216.43ms
+2025-05-20 20:41:07,843 - Epoch 3000/10000 - Time: 619.30s - Loss: 0.573467, PDE: 0.383946, IC: 0.002219, BC: 0.187302
+2025-05-20 20:41:07,844 -   Avg Times (last 200 epochs):
+2025-05-20 20:41:07,844 -     zero_grad: 0.16ms, PDE Calc: 60.14ms, IC Calc: 5.31ms, BC Calc: 19.12ms
+2025-05-20 20:41:07,844 -     Backward: 94.69ms, Optimizer Step: 1.54ms, Other: 0.06ms
+2025-05-20 20:41:07,844 -     Sum of components: 181.02ms, Measured per epoch: 185.03ms
+2025-05-20 20:41:47,907 - Epoch 3200/10000 - Time: 659.37s - Loss: 0.605530, PDE: 0.482601, IC: 0.003228, BC: 0.119702
+2025-05-20 20:41:47,908 -   Avg Times (last 200 epochs):
+2025-05-20 20:41:47,908 -     zero_grad: 0.23ms, PDE Calc: 67.45ms, IC Calc: 5.90ms, BC Calc: 19.57ms
+2025-05-20 20:41:47,908 -     Backward: 100.83ms, Optimizer Step: 2.26ms, Other: 0.09ms
+2025-05-20 20:41:47,908 -     Sum of components: 196.33ms, Measured per epoch: 200.32ms
+2025-05-20 20:42:29,924 - Epoch 3400/10000 - Time: 701.38s - Loss: 0.620241, PDE: 0.469160, IC: 0.004042, BC: 0.147038
+2025-05-20 20:42:29,925 -   Avg Times (last 200 epochs):
+2025-05-20 20:42:29,925 -     zero_grad: 0.21ms, PDE Calc: 68.32ms, IC Calc: 6.60ms, BC Calc: 20.82ms
+2025-05-20 20:42:29,925 -     Backward: 106.31ms, Optimizer Step: 2.05ms, Other: 0.08ms
+2025-05-20 20:42:29,925 -     Sum of components: 204.38ms, Measured per epoch: 210.09ms
+2025-05-20 20:43:13,727 - Epoch 3600/10000 - Time: 745.19s - Loss: 0.575600, PDE: 0.421139, IC: 0.005736, BC: 0.148724
+2025-05-20 20:43:13,728 -   Avg Times (last 200 epochs):
+2025-05-20 20:43:13,728 -     zero_grad: 0.19ms, PDE Calc: 71.55ms, IC Calc: 6.74ms, BC Calc: 22.13ms
+2025-05-20 20:43:13,728 -     Backward: 110.41ms, Optimizer Step: 1.91ms, Other: 0.07ms
+2025-05-20 20:43:13,728 -     Sum of components: 213.02ms, Measured per epoch: 219.02ms
+2025-05-20 20:43:55,330 - Epoch 3800/10000 - Time: 786.79s - Loss: 0.441216, PDE: 0.296730, IC: 0.005497, BC: 0.138990
+2025-05-20 20:43:55,330 -   Avg Times (last 200 epochs):
+2025-05-20 20:43:55,330 -     zero_grad: 0.20ms, PDE Calc: 67.17ms, IC Calc: 6.12ms, BC Calc: 21.15ms
+2025-05-20 20:43:55,330 -     Backward: 105.64ms, Optimizer Step: 2.01ms, Other: 0.08ms
+2025-05-20 20:43:55,330 -     Sum of components: 202.36ms, Measured per epoch: 208.01ms
+2025-05-20 20:44:31,849 - Epoch 4000/10000 - Time: 823.31s - Loss: 0.709194, PDE: 0.579455, IC: 0.003137, BC: 0.126602
+2025-05-20 20:44:31,851 -   Avg Times (last 200 epochs):
+2025-05-20 20:44:31,851 -     zero_grad: 0.16ms, PDE Calc: 59.07ms, IC Calc: 5.45ms, BC Calc: 18.88ms
+2025-05-20 20:44:31,851 -     Backward: 93.49ms, Optimizer Step: 1.60ms, Other: 0.06ms
+2025-05-20 20:44:31,851 -     Sum of components: 178.70ms, Measured per epoch: 182.60ms
+2025-05-20 20:45:10,932 - Epoch 4200/10000 - Time: 862.39s - Loss: 0.562840, PDE: 0.404441, IC: 0.002851, BC: 0.155548
+2025-05-20 20:45:10,934 -   Avg Times (last 200 epochs):
+2025-05-20 20:45:10,934 -     zero_grad: 0.19ms, PDE Calc: 64.82ms, IC Calc: 5.59ms, BC Calc: 18.64ms
+2025-05-20 20:45:10,934 -     Backward: 99.99ms, Optimizer Step: 1.88ms, Other: 0.07ms
+2025-05-20 20:45:10,934 -     Sum of components: 191.18ms, Measured per epoch: 195.42ms
+2025-05-20 20:45:52,896 - Epoch 4400/10000 - Time: 904.36s - Loss: 0.505402, PDE: 0.347265, IC: 0.007314, BC: 0.150823
+2025-05-20 20:45:52,896 -   Avg Times (last 200 epochs):
+2025-05-20 20:45:52,896 -     zero_grad: 0.21ms, PDE Calc: 67.85ms, IC Calc: 6.55ms, BC Calc: 21.50ms
+2025-05-20 20:45:52,896 -     Backward: 105.93ms, Optimizer Step: 2.02ms, Other: 0.08ms
+2025-05-20 20:45:52,896 -     Sum of components: 204.14ms, Measured per epoch: 209.82ms
+2025-05-20 20:46:36,490 - Epoch 4600/10000 - Time: 947.95s - Loss: 0.688673, PDE: 0.498179, IC: 0.003424, BC: 0.187070
+2025-05-20 20:46:36,491 -   Avg Times (last 200 epochs):
+2025-05-20 20:46:36,491 -     zero_grad: 0.21ms, PDE Calc: 70.21ms, IC Calc: 6.71ms, BC Calc: 22.34ms
+2025-05-20 20:46:36,491 -     Backward: 110.32ms, Optimizer Step: 2.12ms, Other: 0.08ms
+2025-05-20 20:46:36,491 -     Sum of components: 211.99ms, Measured per epoch: 217.97ms
+2025-05-20 20:47:18,518 - Epoch 4800/10000 - Time: 989.98s - Loss: 0.481257, PDE: 0.312565, IC: 0.001296, BC: 0.167396
+2025-05-20 20:47:18,518 -   Avg Times (last 200 epochs):
+2025-05-20 20:47:18,518 -     zero_grad: 0.21ms, PDE Calc: 67.82ms, IC Calc: 6.17ms, BC Calc: 21.23ms
+2025-05-20 20:47:18,518 -     Backward: 106.89ms, Optimizer Step: 2.00ms, Other: 0.08ms
+2025-05-20 20:47:18,518 -     Sum of components: 204.40ms, Measured per epoch: 210.14ms
+2025-05-20 20:47:55,613 - Epoch 5000/10000 - Time: 1027.07s - Loss: 0.481402, PDE: 0.334118, IC: 0.003621, BC: 0.143663
+2025-05-20 20:47:55,613 -   Avg Times (last 200 epochs):
+2025-05-20 20:47:55,613 -     zero_grad: 0.16ms, PDE Calc: 60.27ms, IC Calc: 5.30ms, BC Calc: 18.54ms
+2025-05-20 20:47:55,613 -     Backward: 95.74ms, Optimizer Step: 1.51ms, Other: 0.06ms
+2025-05-20 20:47:55,613 -     Sum of components: 181.60ms, Measured per epoch: 185.48ms
+2025-05-20 20:48:35,158 - Epoch 5200/10000 - Time: 1066.62s - Loss: 0.559828, PDE: 0.433944, IC: 0.004400, BC: 0.121484
+2025-05-20 20:48:35,158 -   Avg Times (last 200 epochs):
+2025-05-20 20:48:35,158 -     zero_grad: 0.18ms, PDE Calc: 66.62ms, IC Calc: 5.83ms, BC Calc: 19.83ms
+2025-05-20 20:48:35,158 -     Backward: 98.56ms, Optimizer Step: 1.85ms, Other: 0.07ms
+2025-05-20 20:48:35,158 -     Sum of components: 192.95ms, Measured per epoch: 197.72ms
+2025-05-20 20:49:16,605 - Epoch 5400/10000 - Time: 1108.06s - Loss: 0.368790, PDE: 0.195661, IC: 0.005611, BC: 0.167517
+2025-05-20 20:49:16,605 -   Avg Times (last 200 epochs):
+2025-05-20 20:49:16,605 -     zero_grad: 0.20ms, PDE Calc: 66.99ms, IC Calc: 6.37ms, BC Calc: 21.18ms
+2025-05-20 20:49:16,605 -     Backward: 104.71ms, Optimizer Step: 1.99ms, Other: 0.08ms
+2025-05-20 20:49:16,605 -     Sum of components: 201.52ms, Measured per epoch: 207.24ms
+2025-05-20 20:49:59,431 - Epoch 5600/10000 - Time: 1150.89s - Loss: 0.517860, PDE: 0.316920, IC: 0.002991, BC: 0.197949
+2025-05-20 20:49:59,431 -   Avg Times (last 200 epochs):
+2025-05-20 20:49:59,431 -     zero_grad: 0.19ms, PDE Calc: 68.96ms, IC Calc: 6.64ms, BC Calc: 21.74ms
+2025-05-20 20:49:59,431 -     Backward: 108.74ms, Optimizer Step: 1.87ms, Other: 0.07ms
+2025-05-20 20:49:59,431 -     Sum of components: 208.22ms, Measured per epoch: 214.13ms
+2025-05-20 20:50:41,219 - Epoch 5800/10000 - Time: 1192.68s - Loss: 0.382452, PDE: 0.231512, IC: 0.012015, BC: 0.138926
+2025-05-20 20:50:41,220 -   Avg Times (last 200 epochs):
+2025-05-20 20:50:41,220 -     zero_grad: 0.20ms, PDE Calc: 67.17ms, IC Calc: 6.23ms, BC Calc: 21.05ms
+2025-05-20 20:50:41,220 -     Backward: 106.51ms, Optimizer Step: 2.04ms, Other: 0.08ms
+2025-05-20 20:50:41,220 -     Sum of components: 203.28ms, Measured per epoch: 208.94ms
+2025-05-20 20:51:18,158 - Epoch 6000/10000 - Time: 1229.62s - Loss: 0.381297, PDE: 0.224660, IC: 0.001710, BC: 0.154926
+2025-05-20 20:51:18,159 -   Avg Times (last 200 epochs):
+2025-05-20 20:51:18,159 -     zero_grad: 0.15ms, PDE Calc: 60.21ms, IC Calc: 5.46ms, BC Calc: 18.90ms
+2025-05-20 20:51:18,159 -     Backward: 94.49ms, Optimizer Step: 1.48ms, Other: 0.06ms
+2025-05-20 20:51:18,159 -     Sum of components: 180.75ms, Measured per epoch: 184.69ms
+2025-05-20 20:51:57,190 - Epoch 6200/10000 - Time: 1268.65s - Loss: 0.576127, PDE: 0.377630, IC: 0.001576, BC: 0.196921
+2025-05-20 20:51:57,191 -   Avg Times (last 200 epochs):
+2025-05-20 20:51:57,191 -     zero_grad: 0.17ms, PDE Calc: 63.70ms, IC Calc: 6.05ms, BC Calc: 19.53ms
+2025-05-20 20:51:57,191 -     Backward: 99.14ms, Optimizer Step: 1.72ms, Other: 0.07ms
+2025-05-20 20:51:57,191 -     Sum of components: 190.39ms, Measured per epoch: 195.16ms
+2025-05-20 20:52:37,689 - Epoch 6400/10000 - Time: 1309.15s - Loss: 0.486009, PDE: 0.305235, IC: 0.002377, BC: 0.178397
+2025-05-20 20:52:37,690 -   Avg Times (last 200 epochs):
+2025-05-20 20:52:37,690 -     zero_grad: 0.19ms, PDE Calc: 65.69ms, IC Calc: 6.07ms, BC Calc: 20.72ms
+2025-05-20 20:52:37,690 -     Backward: 102.63ms, Optimizer Step: 1.88ms, Other: 0.07ms
+2025-05-20 20:52:37,690 -     Sum of components: 197.26ms, Measured per epoch: 202.49ms
+2025-05-20 20:53:19,381 - Epoch 6600/10000 - Time: 1350.84s - Loss: 0.409637, PDE: 0.241305, IC: 0.001819, BC: 0.166514
+2025-05-20 20:53:19,382 -   Avg Times (last 200 epochs):
+2025-05-20 20:53:19,382 -     zero_grad: 0.21ms, PDE Calc: 67.45ms, IC Calc: 6.48ms, BC Calc: 21.01ms
+2025-05-20 20:53:19,382 -     Backward: 105.62ms, Optimizer Step: 2.10ms, Other: 0.08ms
+2025-05-20 20:53:19,382 -     Sum of components: 202.95ms, Measured per epoch: 208.46ms
+2025-05-20 20:53:59,626 - Epoch 6800/10000 - Time: 1391.09s - Loss: 0.584849, PDE: 0.368576, IC: 0.001996, BC: 0.214277
+2025-05-20 20:53:59,627 -   Avg Times (last 200 epochs):
+2025-05-20 20:53:59,627 -     zero_grad: 0.17ms, PDE Calc: 65.07ms, IC Calc: 6.07ms, BC Calc: 20.56ms
+2025-05-20 20:53:59,627 -     Backward: 102.68ms, Optimizer Step: 1.69ms, Other: 0.06ms
+2025-05-20 20:53:59,627 -     Sum of components: 196.31ms, Measured per epoch: 201.22ms
+2025-05-20 20:54:34,638 - Epoch 7000/10000 - Time: 1426.10s - Loss: 0.494949, PDE: 0.321971, IC: 0.002221, BC: 0.170756
+2025-05-20 20:54:34,638 -   Avg Times (last 200 epochs):
+2025-05-20 20:54:34,638 -     zero_grad: 0.14ms, PDE Calc: 57.72ms, IC Calc: 5.01ms, BC Calc: 18.19ms
+2025-05-20 20:54:34,638 -     Backward: 89.07ms, Optimizer Step: 1.36ms, Other: 0.06ms
+2025-05-20 20:54:34,638 -     Sum of components: 171.55ms, Measured per epoch: 175.06ms
+2025-05-20 20:55:11,537 - Epoch 7200/10000 - Time: 1463.00s - Loss: 0.501685, PDE: 0.354614, IC: 0.002128, BC: 0.144943
+2025-05-20 20:55:11,539 -   Avg Times (last 200 epochs):
+2025-05-20 20:55:11,539 -     zero_grad: 0.16ms, PDE Calc: 61.52ms, IC Calc: 5.30ms, BC Calc: 18.06ms
+2025-05-20 20:55:11,539 -     Backward: 94.10ms, Optimizer Step: 1.59ms, Other: 0.06ms
+2025-05-20 20:55:11,539 -     Sum of components: 180.80ms, Measured per epoch: 184.50ms
+2025-05-20 20:55:47,405 - Epoch 7400/10000 - Time: 1498.87s - Loss: 0.524180, PDE: 0.324008, IC: 0.000780, BC: 0.199392
+2025-05-20 20:55:48,887 -   Avg Times (last 200 epochs):
+2025-05-20 20:55:48,887 -     zero_grad: 0.15ms, PDE Calc: 60.05ms, IC Calc: 5.52ms, BC Calc: 19.04ms
+2025-05-20 20:55:48,887 -     Backward: 89.30ms, Optimizer Step: 1.45ms, Other: 0.06ms
+2025-05-20 20:55:48,887 -     Sum of components: 175.58ms, Measured per epoch: 179.34ms
+2025-05-20 20:56:23,456 - Epoch 7600/10000 - Time: 1534.92s - Loss: 0.578807, PDE: 0.411592, IC: 0.001119, BC: 0.166095
+2025-05-20 20:56:23,457 -   Avg Times (last 200 epochs):
+2025-05-20 20:56:23,457 -     zero_grad: 0.14ms, PDE Calc: 56.15ms, IC Calc: 5.16ms, BC Calc: 18.93ms
+2025-05-20 20:56:23,457 -     Backward: 87.61ms, Optimizer Step: 1.31ms, Other: 0.06ms
+2025-05-20 20:56:23,457 -     Sum of components: 169.36ms, Measured per epoch: 180.25ms
+2025-05-20 20:56:57,173 - Epoch 7800/10000 - Time: 1568.63s - Loss: 0.399397, PDE: 0.257981, IC: 0.001120, BC: 0.140296
+2025-05-20 20:56:57,173 -   Avg Times (last 200 epochs):
+2025-05-20 20:56:57,174 -     zero_grad: 0.14ms, PDE Calc: 55.68ms, IC Calc: 4.92ms, BC Calc: 18.02ms
+2025-05-20 20:56:57,174 -     Backward: 85.39ms, Optimizer Step: 1.29ms, Other: 0.06ms
+2025-05-20 20:56:57,174 -     Sum of components: 165.50ms, Measured per epoch: 168.58ms
+2025-05-20 20:57:31,770 - Epoch 8000/10000 - Time: 1603.23s - Loss: 0.536276, PDE: 0.351032, IC: 0.002705, BC: 0.182539
+2025-05-20 20:57:31,770 -   Avg Times (last 200 epochs):
+2025-05-20 20:57:31,770 -     zero_grad: 0.13ms, PDE Calc: 57.71ms, IC Calc: 5.11ms, BC Calc: 19.07ms
+2025-05-20 20:57:31,770 -     Backward: 86.47ms, Optimizer Step: 1.27ms, Other: 0.06ms
+2025-05-20 20:57:31,770 -     Sum of components: 169.83ms, Measured per epoch: 172.98ms
+2025-05-20 20:58:04,822 - Epoch 8200/10000 - Time: 1636.28s - Loss: 0.447833, PDE: 0.281256, IC: 0.002792, BC: 0.163785
+2025-05-20 20:58:05,071 -   Avg Times (last 200 epochs):
+2025-05-20 20:58:05,071 -     zero_grad: 0.13ms, PDE Calc: 55.07ms, IC Calc: 4.73ms, BC Calc: 17.31ms
+2025-05-20 20:58:05,072 -     Backward: 83.97ms, Optimizer Step: 1.21ms, Other: 0.05ms
+2025-05-20 20:58:05,072 -     Sum of components: 162.47ms, Measured per epoch: 165.26ms
+2025-05-20 20:58:41,727 - Epoch 8400/10000 - Time: 1673.19s - Loss: 0.396658, PDE: 0.234698, IC: 0.000715, BC: 0.161246
+2025-05-20 20:58:41,728 -   Avg Times (last 200 epochs):
+2025-05-20 20:58:41,728 -     zero_grad: 0.18ms, PDE Calc: 58.77ms, IC Calc: 4.97ms, BC Calc: 17.57ms
+2025-05-20 20:58:41,728 -     Backward: 96.38ms, Optimizer Step: 1.74ms, Other: 0.07ms
+2025-05-20 20:58:41,728 -     Sum of components: 179.67ms, Measured per epoch: 184.52ms
+2025-05-20 20:59:17,637 - Epoch 8600/10000 - Time: 1709.10s - Loss: 0.419231, PDE: 0.228524, IC: 0.001050, BC: 0.189657
+2025-05-20 20:59:17,637 -   Avg Times (last 200 epochs):
+2025-05-20 20:59:17,637 -     zero_grad: 0.14ms, PDE Calc: 59.27ms, IC Calc: 5.39ms, BC Calc: 18.87ms
+2025-05-20 20:59:17,637 -     Backward: 90.72ms, Optimizer Step: 1.37ms, Other: 0.05ms
+2025-05-20 20:59:17,637 -     Sum of components: 175.82ms, Measured per epoch: 179.55ms
+2025-05-20 20:59:52,851 - Epoch 8800/10000 - Time: 1744.31s - Loss: 0.450488, PDE: 0.296046, IC: 0.000917, BC: 0.153524
+2025-05-20 20:59:52,852 -   Avg Times (last 200 epochs):
+2025-05-20 20:59:52,852 -     zero_grad: 0.14ms, PDE Calc: 57.51ms, IC Calc: 5.31ms, BC Calc: 19.44ms
+2025-05-20 20:59:52,852 -     Backward: 88.89ms, Optimizer Step: 1.35ms, Other: 0.06ms
+2025-05-20 20:59:52,852 -     Sum of components: 172.70ms, Measured per epoch: 176.07ms
+2025-05-20 21:00:26,945 - Epoch 9000/10000 - Time: 1778.40s - Loss: 0.468073, PDE: 0.310347, IC: 0.000620, BC: 0.157106
+2025-05-20 21:00:26,945 -   Avg Times (last 200 epochs):
+2025-05-20 21:00:26,945 -     zero_grad: 0.14ms, PDE Calc: 56.96ms, IC Calc: 4.96ms, BC Calc: 18.11ms
+2025-05-20 21:00:26,945 -     Backward: 85.84ms, Optimizer Step: 1.32ms, Other: 0.06ms
+2025-05-20 21:00:26,946 -     Sum of components: 167.38ms, Measured per epoch: 170.47ms
+2025-05-20 21:01:01,935 - Epoch 9200/10000 - Time: 1813.40s - Loss: 0.692304, PDE: 0.523387, IC: 0.000524, BC: 0.168393
+2025-05-20 21:01:01,936 -   Avg Times (last 200 epochs):
+2025-05-20 21:01:01,936 -     zero_grad: 0.14ms, PDE Calc: 58.20ms, IC Calc: 5.28ms, BC Calc: 19.53ms
+2025-05-20 21:01:01,936 -     Backward: 87.13ms, Optimizer Step: 1.29ms, Other: 0.06ms
+2025-05-20 21:01:01,936 -     Sum of components: 171.62ms, Measured per epoch: 174.95ms
+2025-05-20 21:01:35,722 - Epoch 9400/10000 - Time: 1847.18s - Loss: 0.542002, PDE: 0.349517, IC: 0.001163, BC: 0.191323
+2025-05-20 21:01:35,722 -   Avg Times (last 200 epochs):
+2025-05-20 21:01:35,722 -     zero_grad: 0.13ms, PDE Calc: 55.61ms, IC Calc: 5.10ms, BC Calc: 17.95ms
+2025-05-20 21:01:35,722 -     Backward: 85.83ms, Optimizer Step: 1.24ms, Other: 0.05ms
+2025-05-20 21:01:35,722 -     Sum of components: 165.91ms, Measured per epoch: 168.93ms
+2025-05-20 21:02:12,643 - Epoch 9600/10000 - Time: 1884.10s - Loss: 0.540248, PDE: 0.380626, IC: 0.001463, BC: 0.158159
+2025-05-20 21:02:12,643 -   Avg Times (last 200 epochs):
+2025-05-20 21:02:12,643 -     zero_grad: 0.16ms, PDE Calc: 60.28ms, IC Calc: 5.16ms, BC Calc: 17.90ms
+2025-05-20 21:02:12,643 -     Backward: 95.62ms, Optimizer Step: 1.53ms, Other: 0.06ms
+2025-05-20 21:02:12,643 -     Sum of components: 180.71ms, Measured per epoch: 184.61ms
+2025-05-20 21:02:49,095 - Epoch 9800/10000 - Time: 1920.55s - Loss: 0.466502, PDE: 0.310445, IC: 0.000577, BC: 0.155480
+2025-05-20 21:02:50,757 -   Avg Times (last 200 epochs):
+2025-05-20 21:02:50,757 -     zero_grad: 0.15ms, PDE Calc: 60.12ms, IC Calc: 5.48ms, BC Calc: 19.43ms
+2025-05-20 21:02:50,757 -     Backward: 91.69ms, Optimizer Step: 1.43ms, Other: 0.06ms
+2025-05-20 21:02:50,757 -     Sum of components: 178.35ms, Measured per epoch: 182.26ms
+2025-05-20 21:03:25,701 - Training completed in 1957.16 seconds
+2025-05-20 21:03:30,325 - Saving models to Exp_VL3_VN32_LR0.01_BS128/velocity_model.pth and Exp_VL3_VN32_LR0.01_BS128/time_model.pth
+2025-05-20 21:03:35,703 - Loss history plot saved to Exp_VL3_VN32_LR0.01_BS128/loss_history.png
